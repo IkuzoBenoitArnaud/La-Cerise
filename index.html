@@ -291,7 +291,7 @@
             </div>
             <div>
                 <h4 class="font-bold text-lg mb-4">Contact</h4>
-                <p class="text-sm">123 Luxury Ave, Downtown<br>+1 (555) 123-4567<br>hello@lacerise.com</p>
+                <p class="text-sm">KG 784 St, No. 273 - KG 14 Ave<br>+250 799 000 000<br>hello@lacerise.com</p>
             </div>
             <div>
   <h4 class="font-bold text-lg mb-4">Location</h4>
@@ -312,7 +312,11 @@
 </div>
 
         </div>
-        <div class="text-center text-xs text-[#666] pt-12 mt-8 border-t border-white/5">© 2025 La Cerise — Crafted with passion.</div>
+        <div class="text-center text-xs text-[#666] pt-12 mt-8 border-t border-white/5">© <span id="currentYear">2025</span> La Cerise — Crafted with passion.</div>
     </footer>
+    <script>
+        d=New Date();
+        document.getElementById("currentYear").textContent= d.getFullYear()
+    </script>
 </body>
 </html>
